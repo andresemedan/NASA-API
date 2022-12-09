@@ -1,0 +1,74 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  
+  
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  background:linear-gradient(#e9f6ff,#ffeff0);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin:0;
+  text-align: center;
+  font-size:2rem;
+  
+}
+
+h1 {
+  font-size: 5.5rem;
+  
+}
+header {
+  /* border: 1px solid black; */
+}
+
+
+
+.nasaLogo {
+  
+  width: 200px;
+  margin:  3% auto 0 auto;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  position:relative;
+}
+
+.picOfDay {
+  margin-top: 2%;
+  width: 80%;
+  display:block;
+
+
+}
+iframe {
+  display:block;
+  margin:5% auto 5% auto;
+}
+
+h3 ~ p {
+  text-align: left;
+  padding: 2% 5% 2% 5%;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
